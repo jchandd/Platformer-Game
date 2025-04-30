@@ -3,8 +3,6 @@
   "resourceVersion": "1.6",
   "name": "Platformer-game",
   "resources": [
-    {"id":{"name":"spr_MC","path":"sprites/spr_MC/spr_MC.yy",},"order":0,},
-    {"id":{"name":"obj_MC","path":"objects/obj_MC/obj_MC.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -18,7 +16,7 @@
     {"name":"Windows","path":"options/windows/options_windows.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
   ],
-  "defaultScriptType": 2,
+  "defaultScriptType": 0,
   "isEcma": false,
   "configs": {
     "name": "Default",
