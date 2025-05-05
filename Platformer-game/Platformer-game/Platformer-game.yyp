@@ -3,7 +3,10 @@
   "resourceVersion": "1.6",
   "name": "Platformer-game",
   "resources": [
+    {"id":{"name":"level_3","path":"rooms/level_3/level_3.yy",},"order":2,},
+    {"id":{"name":"obj_enemy","path":"sprites/obj_enemy/obj_enemy.yy",},"order":4,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":2,},
+    {"id":{"name":"level_2","path":"rooms/level_2/level_2.yy",},"order":1,},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},"order":1,},
     {"id":{"name":"spr_exit","path":"sprites/spr_exit/spr_exit.yy",},"order":3,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":1,},
@@ -11,7 +14,7 @@
     {"id":{"name":"obj_exit","path":"objects/obj_exit/obj_exit.yy",},"order":3,},
     {"id":{"name":"obj_ladder","path":"objects/obj_ladder/obj_ladder.yy",},"order":0,},
     {"id":{"name":"spr_ladder","path":"sprites/spr_ladder/spr_ladder.yy",},"order":0,},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+    {"id":{"name":"level_1","path":"rooms/level_1/level_1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Android","path":"options/android/options_android.yy",},
@@ -31,7 +34,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"level_1","path":"rooms/level_1/level_1.yy",},},
+    {"roomId":{"name":"level_2","path":"rooms/level_2/level_2.yy",},},
+    {"roomId":{"name":"level_3","path":"rooms/level_3/level_3.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
